@@ -3,13 +3,14 @@ import streamlit as st
 
 # --- Personal Info ---
 PERSONAL_INFO = {
-    "name": "Sandip Madde",
+    "Greeting": "Welcome To My Profile , You Have Landed To",
+    "name": "Sandip Madde Portfolio",
     "title": "Process Engineer",
     "location": "Pune, India",
     "email": "Sandipomprakash@gmail.com",
     "linkedin": "https://www.linkedin.com/in/sandipomprakash",
     "github": "https://github.com/yourusername",
-    "bio": """Hi — Engineering professional with 8.5 years' experience in process design, plant operations, troubleshooting
+    "bio": """Hi.. I'm an Engineering professional with 8.5 years' experience in process design, plant operations, troubleshooting
             and optimization in ASU, hydrogen, gasification, and cryogenic systems. Expertise includes PFDs, P&IDs, simulations,
            equipment sizing, commissioning and FEED/Detailed Engineering with strong coordination and technical problem-solving skills."""
 }
@@ -105,6 +106,31 @@ PERSONAL_ATTRIBUTES_and_SKILLS = [
 # --- Layout ---
 st.set_page_config(page_title=f"{PERSONAL_INFO['name']} Portfolio", page_icon=":tada:", layout="wide")
 
+
+# --- FADE IN / OUT GREETING ---
+st.markdown(
+    f"""
+    <style>
+    .fade-text {{
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        animation: fadeInOut 3s infinite;
+        color: #4a4a4a;
+        margin-top: 20px;
+    }}
+
+    @keyframes fadeInOut {{
+        0% {{ opacity: 0; }}
+        50% {{ opacity: 1; }}
+        100% {{ opacity: 0; }}
+    }}
+    </style>
+
+    <div class="fade-text">{PERSONAL_INFO['Greeting']}</div>
+    """,
+    unsafe_allow_html=True
+)
 # Header
 st.title(PERSONAL_INFO["name"])
 st.subheader(PERSONAL_INFO["title"])
