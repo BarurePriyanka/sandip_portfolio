@@ -18,48 +18,67 @@ PERSONAL_INFO = {
 WORK_EXPERIENCE = [
     {
         "role": "Sr. Process Engineer",
-        "company": "ENPRO Industries Pvt. Ltd., Pune 2nd Jan-2024 – Present",
-        "description":"""Experienced in preparing core engineering deliverables (PFDs, P&IDs, MEBs, datasheets, and utility summaries) and
-                      leading process engineering for Green Hydrogen, Pyrolysis, Gasification, and hydrogen compression projects. Delivered
-                      FEED and Detailed Design for BoP systems, designed and rated heat exchangers, and handled technical vendor evaluations.
-                      Skilled in AutoCAD, Inventor, SolidWorks, and Navisworks for process layouts. Supported proposals, prepared technical documents,
-                      coordinated with international clients, and ensured QA/QC compliance while improving design standards and workflows."""
+        "company": "ENPRO Industries Pvt. Ltd., Pune (2nd Jan 2024 – Present)",
+        "description": """
+        • Prepared core engineering deliverables including PFDs, P&IDs, mass & energy balances, equipment datasheets, instrument datasheets, and utility consumption summaries.
+        • Leading process engineering for Green Hydrogen, Pyrolysis, Gasification, and Electrochemical Hydrogen Compression projects.
+        • Executed FEED & Detailed Design for complete Balance of Plant (BoP) packages.
+        • Designed and rated shell & tube heat exchangers; performed technical vendor reviews.
+        • Supported proposal engineering and contributed to technical bids and design philosophies.
+        • Hands-on experience with AutoCAD, Inventor, SolidWorks, and Navisworks.
+        • Served as primary technical contact for international clients.
+        • Ensured QA/QC compliance and contributed to process document standardization.
+        """
     },
     {
         "role": "Proposal & Project Engineer",
-        "company": "Economy Process Solutions Pvt Ltd, Chakan -Oct 2023 – Dec 2023",
-        "description":"""Prepared technical and commercial proposals for customized process skids, and developed key engineering deliverables
-                         including PFDs, P&IDs, equipment layouts, and GA drawings while supporting 3D modelling activities. Created detailed
-                         equipment datasheets and served as the primary interface for customers and internal sales teams. Coordinated fabrication,
-                         documentation,and cost tracking during execution. Proficient in AutoCAD, SolidWorks, and Navisworks."""
+        "company": "Economy Process Solutions Pvt Ltd, Chakan (Oct 2023 – Dec 2023)",
+        "description": """
+        • Prepared technical and commercial proposals for process equipment skids.
+        • Developed PFDs, P&IDs, equipment layouts, GA drawings, and supported 3D modeling.
+        • Created equipment datasheets for pumps, heat exchangers, valves, motors, and instruments.
+        • Single-point contact for customers and internal sales teams.
+        • Coordinated fabrication, document control, and cost tracking.
+        • Tools used: AutoCAD, SolidWorks, Navisworks.
+        """
     },
     {
-        "role": "Engineer-Operations",
-        "company": "Inox Air Products Pvt Ltd - Dec 2021 – June 2023",
-        "description":"""Delivered detailed process engineering for a 200 TPD Air Separation Unit, including PFDs, P&IDs, equipment lists,
-                         hydraulic calculations, and mass & energy balances. Supported plant operations, troubleshooting, and prepared control
-                         philosophies and process documentation. Participated in L200 ASU commissioning with solo runs on rotary equipment.
-                         Used Aspen Plus for simulation and HTRI for thermal design, and collected site data for performance validation and root cause analysis."""
+        "role": "Engineer - Operations",
+        "company": "Inox Air Products Pvt Ltd (Dec 2021 – June 2023)",
+        "description": """
+        • 200 TPD ASU Project involvement.
+        • Conducted line sizing and pump hydraulic calculations.
+        • Worked as operations support and led plant troubleshooting.
+        • Prepared control philosophies, process descriptions, and utility balance documents.
+        • Participated in L200 ASU plant commissioning.
+        • Utilized Aspen Plus for simulation and HTRI for thermal design.
+        • Collected site performance data and performed RCA for deviations.
+        """
     },
     {
-        "role": "Engineer Production",
-        "company": "Ellenbarrie Industrial Gases Ltd, Hyderabad - Feb 2021 - Nov 2021",
-        "description":"""Optimized a 120 TPD LOX–LIN process plant by reviewing PFDs/P&IDs, performing mass & energy balances, and preparing SOPs,
-                         operating manuals, and QA-compliant documentation. Developed datasheets and specifications for major equipment including centrifugal
-                         compressors, TSA units, turbines, cryogenic columns, and heat exchangers. Conducted line sizing,hydraulic calculations, and
-                         supported interdisciplinary coordination while gaining strong exposure to ASME and API standards for EPC projects."""
+        "role": "Engineer - Production",
+        "company": "Ellenbarrie Industrial Gases Ltd, Hyderabad (Feb 2021 – Nov 2021)",
+        "description": """
+        • Optimized LOX-LIN process plant (120 TPD).
+        • Developed SOPs, operating manuals, and QA documentation.
+        • Reviewed PFDs, P&IDs, and conducted mass & energy balance calculations.
+        • Created datasheets for compressors, TSA units, turbines, columns, and heat exchangers.
+        • Performed line sizing and supported multidisciplinary coordination.
+        • Gained exposure to ASME, API standards and EPC project workflows.
+        """
     },
     {
         "role": "Jr. Engineer",
-        "company": "Inox air products Pvt Ltd, Ville, Raigad - May 2017 - Feb 2021",
-        "description":"""Reviewed PFDs, P&IDs, equipment and instrument lists to ensure alignment with design intent and process efficiency.
-                         Supported preparation and validation of equipment datasheets and contributed to design reviews for plant upgrades.
-                         Worked with design teams and plant leadership to implement process improvements, troubleshoot inefficiencies, and optimize control strategies.
-                         Performed natural gas analysis, validated design parameters, and provided real-time input for refining control logic.
-                         Participated in commissioning support and internal audits for process documentation and SOP standardization.
-                         Gained hands-on exposure to PSA, SMR, cryogenic distillation, and rotary equipment, strengthening understanding of unit operations and design optimization."""
+        "company": "Inox Air Products Pvt Ltd, Raigad (May 2017 – Feb 2021)",
+        "description": """
+        • Reviewed PFDs, P&IDs, equipment lists, and instrument lists.
+        • Prepared equipment datasheets and participated in design reviews.
+        • Implemented process improvements and troubleshooting.
+        • Conducted natural gas analysis and validated design parameters.
+        • Supported commissioning and internal audits for documentation.
+        • Gained exposure to PSA, SMR, cryogenic distillation, and rotary equipment.
+        """
     }
-    
 ]
 
 EDUCATION = [
@@ -75,12 +94,13 @@ ACADEMIC_PROJECTS_AND_SEMINARS = [
     ]
 
 PERSONAL_ATTRIBUTES_and_SKILLS = [
-      {"info":"\n" "Co-operative nature & like to work with team."
-       "\n" "Positive attitude."
-       "\n" "Ready to learn new ideas and technical knowledge."
-       "\n" "Quick learner, versatile and ability to manage several assignments simultaneously."
-}   
-    ]
+    {
+        "info1": "Co-operative nature & like to work with team.",
+        "info2": "Positive attitude.",
+        "info3": "Ready to learn new ideas and technical knowledge.",
+        "info4": "Quick learner, versatile and ability to manage several assignments simultaneously."
+    }
+]
 
 # --- Layout ---
 st.set_page_config(page_title=f"{PERSONAL_INFO['name']} Portfolio", page_icon=":tada:", layout="wide")
@@ -123,7 +143,10 @@ for a in ACADEMIC_PROJECTS_AND_SEMINARS:
 #PERSONAL_ATTRIBUTES_and_SKILLS
 st.header("PERSONAL_ATTRIBUTES_&_SKILLS")
 for p in PERSONAL_ATTRIBUTES_and_SKILLS:
-      st.write(p["info"])
+      st.write(p["info1"])
+      st.write(p["info2"])
+      st.write(p["info3"])
+      st.write(p["info4"])
 
       
 # Contact Form
