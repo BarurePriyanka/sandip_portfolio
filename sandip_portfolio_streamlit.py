@@ -120,28 +120,28 @@ st.markdown(f"[LinkedIn]({PERSONAL_INFO['linkedin']}) | [GitHub]({PERSONAL_INFO[
 # Work Experience
 st.header("Work Experience")
 for w in WORK_EXPERIENCE:
-    st.subheader(w["role"])
-    st.write(w["company"])
+    st.subheader(w["company"])
+    st.markdown(f"**{w['role']}**")
     st.write(w["description"])
     st.markdown("---")
 #EDUCATION
-st.header("EDUCATION")
+st.subheader("EDUCATION")
 for e in EDUCATION:
       st.write(e["info"])
 
 #CERTIFICATION
-st.header("CERTIFICATION")
+st.subheader("CERTIFICATION")
 for c in CERTIFICATION:
       st.write(c["info"])
 
 #ACADEMIC_PROJECTS_AND_SEMINARS
-st.header("ACADEMIC_PROJECTS_AND_SEMINARS")
+st.subheader("ACADEMIC_PROJECTS_AND_SEMINARS")
 for a in ACADEMIC_PROJECTS_AND_SEMINARS:
       st.write(a["Title"])
 
 
 #PERSONAL_ATTRIBUTES_and_SKILLS
-st.header("PERSONAL_ATTRIBUTES_&_SKILLS")
+st.subheader("PERSONAL_ATTRIBUTES_&_SKILLS")
 for p in PERSONAL_ATTRIBUTES_and_SKILLS:
       st.write(p["info1"])
       st.write(p["info2"])
