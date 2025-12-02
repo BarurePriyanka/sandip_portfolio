@@ -21,25 +21,25 @@ WORK_EXPERIENCE = [
         "company": "ENPRO Industries Pvt. Ltd., Pune (2nd Jan 2024 – Present)",
         "description": """
         • Prepared core engineering deliverables including PFDs, P&IDs, mass & energy balances, equipment datasheets, instrument datasheets, and utility consumption summaries.
-        • Leading process engineering for Green Hydrogen, Pyrolysis, Gasification, and Electrochemical Hydrogen Compression projects.
-        • Executed FEED & Detailed Design for complete Balance of Plant (BoP) packages.
-        • Designed and rated shell & tube heat exchangers; performed technical vendor reviews.
-        • Supported proposal engineering and contributed to technical bids and design philosophies.
-        • Hands-on experience with AutoCAD, Inventor, SolidWorks, and Navisworks.
-        • Served as primary technical contact for international clients.
-        • Ensured QA/QC compliance and contributed to process document standardization.
+        \n• Leading process engineering for Green Hydrogen, Pyrolysis, Gasification, and Electrochemical Hydrogen Compression projects.
+        \n• Executed FEED & Detailed Design for complete Balance of Plant (BoP) packages.
+        \n• Designed and rated shell & tube heat exchangers; performed technical vendor reviews.
+        \n• Supported proposal engineering and contributed to technical bids and design philosophies.
+        \n• Hands-on experience with AutoCAD, Inventor, SolidWorks, and Navisworks.
+        \n• Served as primary technical contact for international clients.
+        \n• Ensured QA/QC compliance and contributed to process document standardization.
         """
     },
     {
         "role": "Proposal & Project Engineer",
         "company": "Economy Process Solutions Pvt Ltd, Chakan (Oct 2023 – Dec 2023)",
         "description": """
-        • Prepared technical and commercial proposals for process equipment skids.
-        • Developed PFDs, P&IDs, equipment layouts, GA drawings, and supported 3D modeling.
-        • Created equipment datasheets for pumps, heat exchangers, valves, motors, and instruments.
-        • Single-point contact for customers and internal sales teams.
-        • Coordinated fabrication, document control, and cost tracking.
-        • Tools used: AutoCAD, SolidWorks, Navisworks.
+        \n• Prepared technical and commercial proposals for process equipment skids.
+        \n• Developed PFDs, P&IDs, equipment layouts, GA drawings, and supported 3D modeling.
+        \n• Created equipment datasheets for pumps, heat exchangers, valves, motors, and instruments.
+        \n• Single-point contact for customers and internal sales teams.
+        \n• Coordinated fabrication, document control, and cost tracking.
+        \n• Tools used: AutoCAD, SolidWorks, Navisworks.
         """
     },
     {
@@ -47,12 +47,12 @@ WORK_EXPERIENCE = [
         "company": "Inox Air Products Pvt Ltd (Dec 2021 – June 2023)",
         "description": """
         • 200 TPD ASU Project involvement.
-        • Conducted line sizing and pump hydraulic calculations.
-        • Worked as operations support and led plant troubleshooting.
-        • Prepared control philosophies, process descriptions, and utility balance documents.
-        • Participated in L200 ASU plant commissioning.
-        • Utilized Aspen Plus for simulation and HTRI for thermal design.
-        • Collected site performance data and performed RCA for deviations.
+        \n• Conducted line sizing and pump hydraulic calculations.
+        \n• Worked as operations support and led plant troubleshooting.
+        \n• Prepared control philosophies, process descriptions, and utility balance documents.
+        \n• Participated in L200 ASU plant commissioning.
+        \n• Utilized Aspen Plus for simulation and HTRI for thermal design.
+        \n• Collected site performance data and performed RCA for deviations.
         """
     },
     {
@@ -60,11 +60,11 @@ WORK_EXPERIENCE = [
         "company": "Ellenbarrie Industrial Gases Ltd, Hyderabad (Feb 2021 – Nov 2021)",
         "description": """
         • Optimized LOX-LIN process plant (120 TPD).
-        • Developed SOPs, operating manuals, and QA documentation.
-        • Reviewed PFDs, P&IDs, and conducted mass & energy balance calculations.
-        • Created datasheets for compressors, TSA units, turbines, columns, and heat exchangers.
-        • Performed line sizing and supported multidisciplinary coordination.
-        • Gained exposure to ASME, API standards and EPC project workflows.
+        \n• Developed SOPs, operating manuals, and QA documentation.
+        \n• Reviewed PFDs, P&IDs, and conducted mass & energy balance calculations.
+        \n• Created datasheets for compressors, TSA units, turbines, columns, and heat exchangers.
+        \n• Performed line sizing and supported multidisciplinary coordination.
+        \n• Gained exposure to ASME, API standards and EPC project workflows.
         """
     },
     {
@@ -72,33 +72,33 @@ WORK_EXPERIENCE = [
         "company": "Inox Air Products Pvt Ltd, Raigad (May 2017 – Feb 2021)",
         "description": """
         • Reviewed PFDs, P&IDs, equipment lists, and instrument lists.
-        • Prepared equipment datasheets and participated in design reviews.
-        • Implemented process improvements and troubleshooting.
-        • Conducted natural gas analysis and validated design parameters.
-        • Supported commissioning and internal audits for documentation.
-        • Gained exposure to PSA, SMR, cryogenic distillation, and rotary equipment.
+        \n• Prepared equipment datasheets and participated in design reviews.
+        \n• Implemented process improvements and troubleshooting.
+        \n• Conducted natural gas analysis and validated design parameters.
+        \n• Supported commissioning and internal audits for documentation.
+        \n• Gained exposure to PSA, SMR, cryogenic distillation, and rotary equipment.
         """
     }
 ]
 
 EDUCATION = [
-      {"info": "B.E. in Chemical Engineering from PVPIT, Sangli (Shivaji University Kolhapur 2012-216) with aggregate 66.81%"}   
+      {"info": "• B.E. in Chemical Engineering from PVPIT, Sangli (Shivaji University Kolhapur 2012-216) with aggregate 66.81%"}   
     ]
 
 CERTIFICATION = [
-      {"info": "Process Design Engineering from SB Technologies, Mumbai an ISO  9001:2015 Certified training center "}   
+      {"info": "• Process Design Engineering from SB Technologies, Mumbai an ISO  9001:2015 Certified training center "}   
     ]
 
 ACADEMIC_PROJECTS_AND_SEMINARS = [
-      {"Title": "Design of Agitation vessel"}
+      {"Title": "• Design of Agitation vessel"}
     ]
 
 PERSONAL_ATTRIBUTES_and_SKILLS = [
     {
-        "info1": "Co-operative nature & like to work with team.",
-        "info2": "Positive attitude.",
-        "info3": "Ready to learn new ideas and technical knowledge.",
-        "info4": "Quick learner, versatile and ability to manage several assignments simultaneously."
+        "info1": "•  Co-operative nature & like to work with team.",
+        "info2": "•  Positive attitude.",
+        "info3": "•  Ready to learn new ideas and technical knowledge.",
+        "info4": "•  Quick learner, versatile and ability to manage several assignments simultaneously."
     }
 ]
 
