@@ -62,6 +62,26 @@ WORK_EXPERIENCE = [
     
 ]
 
+EDUCATION = [
+      {"info": "B.E. in Chemical Engineering from PVPIT, Sangli (Shivaji University Kolhapur 2012-216) with aggregate 66.81%"}   
+    ]
+
+CERTIFICATION = [
+      {"info": "Process Design Engineering from SB Technologies, Mumbai an ISO  9001:2015 Certified training center "}   
+    ]
+
+ACADEMIC_PROJECTS_AND_SEMINARS = [
+      {"Title": "Design of Agitation vessel"}
+    ]
+
+PERSONAL_ATTRIBUTES_and_SKILLS = [
+      {"info":"\n" "Co-operative nature & like to work with team."
+       "\n" "Positive attitude."
+       "\n" "Ready to learn new ideas and technical knowledge."
+       "\n" "Quick learner, versatile and ability to manage several assignments simultaneously."
+}   
+    ]
+
 # --- Layout ---
 st.set_page_config(page_title=f"{PERSONAL_INFO['name']} Portfolio", page_icon=":tada:", layout="wide")
 
@@ -84,7 +104,28 @@ for w in WORK_EXPERIENCE:
     st.write(w["company"])
     st.write(w["description"])
     st.markdown("---")
+#EDUCATION
+st.header("EDUCATION")
+for e in EDUCATION:
+      st.write(e["info"])
 
+#CERTIFICATION
+st.header("CERTIFICATION")
+for c in CERTIFICATION:
+      st.write(c["info"])
+
+#ACADEMIC_PROJECTS_AND_SEMINARS
+st.header("ACADEMIC_PROJECTS_AND_SEMINARS")
+for a in ACADEMIC_PROJECTS_AND_SEMINARS:
+      st.write(a["Title"])
+
+
+#PERSONAL_ATTRIBUTES_and_SKILLS
+st.header("PERSONAL_ATTRIBUTES_&_SKILLS")
+for p in PERSONAL_ATTRIBUTES_and_SKILLS:
+      st.write(p["info"])
+
+      
 # Contact Form
 st.header("Contact Me")
 with st.form("contact_form"):
