@@ -131,6 +131,22 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+
+# --- Top Navigation Button to Certification ---
+st.markdown(
+    """
+    <div style="text-align:center; margin: 10px;">
+        <a href="#certification">
+            <button style="background-color:#4CAF50;color:white;padding:10px 20px;border:none;border-radius:5px;">
+                Go to Certification
+            </button>
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 # Header
 st.title(PERSONAL_INFO["name"])
 st.subheader(PERSONAL_INFO["title"])
@@ -156,6 +172,7 @@ for e in EDUCATION:
       st.write(e["info"])
 
 #CERTIFICATION
+st.markdown('<a id="certification"></a>', unsafe_allow_html=True)
 st.subheader("CERTIFICATION")
 for c in CERTIFICATION:
       st.write(c["info"])
