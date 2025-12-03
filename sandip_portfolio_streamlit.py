@@ -133,72 +133,61 @@ st.markdown(
 )
 
 
-# --- Top Navigation Button to Certification ---
-st.markdown(
-    """
-    <div style="text-align:center; margin: 10px;">
-        <a href="#certification">
-            <button style="background-color:#4CAF50;color:white;padding:10px 20px;border:none;border-radius:5px;">
-                Go to Certification
-            </button>
-        </a>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+# --- Tabs ---
+tabs = st.tabs(["Home", "Work Experience", "Education", "Certification", "Projects", "Skills", "Contact"])
 
-# Header
-st.title(PERSONAL_INFO["name"])
-st.subheader(PERSONAL_INFO["title"])
-st.write(f"{PERSONAL_INFO['location']} • [{PERSONAL_INFO['email']}](mailto:{PERSONAL_INFO['email']})")
-st.write(PERSONAL_INFO["bio"])
+# --- Home Tab ---
+with tabs[0]:
+    st.title(PERSONAL_INFO["name"])
+    st.subheader(PERSONAL_INFO["title"])
+    st.write(f"{PERSONAL_INFO['location']} • [{PERSONAL_INFO['email']}](mailto:{PERSONAL_INFO['email']})")
+    st.write(PERSONAL_INFO["bio"])
+    st.image("photo.jpg", width=200)
+    st.markdown(f"[LinkedIn]({PERSONAL_INFO['linkedin']}) | [GitHub]({PERSONAL_INFO['github']})")
 
-# Photo
-st.image("photo.jpg", width=200)  # Make sure photo.jpg is in the same folder
+# --- Work Experience Tab ---
+with tabs[1]:
+    st.header("Work Experience")
+    for w in WORK_EXPERIENCE:
+        st.subheader(w["company"])
+        st.markdown(f"**{w['role']}**")
+        st.write(w["description"])
+        st.markdown("---")
 
-# Social links
-st.markdown(f"[LinkedIn]({PERSONAL_INFO['linkedin']}) | [GitHub]({PERSONAL_INFO['github']})")
+# --- Education Tab ---
+with tabs[2]:
+    st.header("Education")
+    for e in EDUCATION:
+        st.write(e["info"])
 
-# Work Experience
-st.header("Work Experience")
-for w in WORK_EXPERIENCE:
-    st.subheader(w["company"])
-    st.markdown(f"**{w['role']}**")
-    st.write(w["description"])
-    st.markdown("---")
-#EDUCATION
-st.subheader("EDUCATION")
-for e in EDUCATION:
-      st.write(e["info"])
+# --- Certification Tab ---
+with tabs[3]:
+    st.header("Certification")
+    for c in CERTIFICATION:
+        st.write(c["info"])
 
-#CERTIFICATION
-st.markdown('<a id="certification"></a>', unsafe_allow_html=True)
-st.subheader("CERTIFICATION")
-for c in CERTIFICATION:
-      st.write(c["info"])
+# --- Projects Tab ---
+with tabs[4]:
+    st.header("Academic Projects & Seminars")
+    for a in ACADEMIC_PROJECTS_AND_SEMINARS:
+        st.write(a["Title"])
 
-#ACADEMIC_PROJECTS_AND_SEMINARS
-st.subheader("ACADEMIC_PROJECTS_AND_SEMINARS")
-for a in ACADEMIC_PROJECTS_AND_SEMINARS:
-      st.write(a["Title"])
+# --- Skills Tab ---
+with tabs[5]:
+    st.header("Personal Attributes & Skills")
+    for p in PERSONAL_ATTRIBUTES_and_SKILLS:
+        st.write(p["info1"])
+        st.write(p["info2"])
+        st.write(p["info3"])
+        st.write(p["info4"])
 
-
-#PERSONAL_ATTRIBUTES_and_SKILLS
-st.subheader("PERSONAL_ATTRIBUTES_&_SKILLS")
-for p in PERSONAL_ATTRIBUTES_and_SKILLS:
-      st.write(p["info1"])
-      st.write(p["info2"])
-      st.write(p["info3"])
-      st.write(p["info4"])
-
-      
-# Contact Form
-st.header("Contact Me")
-with st.form("contact_form"):
-    name = st.text_input("Your Name")
-    email = st.text_input("Your Email")
-    message = st.text_area("Message")
-    submitted = st.form_submit_button("Send")
-    if submitted:
-        st.success("Thanks! Your message has been sent.")
-        # Optional: Add code to email this or save to Google Sheets
+# --- Contact Tab ---
+with tabs[6]:
+    st.header("Contact Me")
+    with st.form("contact_form"):
+        name = st.text_input("Your Name")
+        email = st.text_input("Your Email")
+        message = st.text_area("Message")
+        submitted = st.form_submit_button("Send")
+        if submitted:
+            st.success("Thanks! Your message has been sent.")
